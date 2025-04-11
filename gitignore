@@ -1,31 +1,19 @@
-
-# Python virtual environment
+# Ignore virtual environments
+mediapipe_env/
 venv/
 env/
-mediapipe_env/
 
-# Python bytecode
+# Ignore build artifacts
+build/
+dist/
+*.exe
+*.dll
+*.pyd
+*.pkg
+
+# Ignore cache/bytecode
 __pycache__/
-*.py[cod]
-*$py.class
+*.pyc
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# VS Code project settings
+# VS Code
 .vscode/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# Model and weight files (optional)
-*.h5
-*.pb
-*.tflite
-
-# Logs
-*.log
-
-# Other
-*.bak
