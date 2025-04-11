@@ -1,0 +1,31 @@
+
+# Python virtual environment
+venv/
+env/
+mediapipe_env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code project settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Model and weight files (optional)
+*.h5
+*.pb
+*.tflite
+
+# Logs
+*.log
+
+# Other
+*.bak
